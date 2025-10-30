@@ -78,3 +78,63 @@ while (i <= limite) {
   console.log(i);
   i++;
 }
+
+🧩 Desafios finais1 
+console.log("Boas-vindas ao nosso programa!");
+
+let nome = "Robson";
+console.log("Olá, " + nome + "!");
+
+let nome2 = "Robson";
+alert("Olá, " + nome2 + "!");
+
+let linguagem = prompt("Qual a linguagem de programação que você mais gosta?");
+console.log("Você gosta de " + linguagem + "!");
+
+let valor1 = 10;
+let valor2 = 20;
+let resultado = valor1 + valor2;
+console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}.`);
+
+let valor3 = 50;
+let valor4 = 30;
+let resultado2 = valor3 - valor4;
+console.log(`A diferença entre ${valor3} e ${valor4} é igual a ${resultado2}.`);
+
+let idade = Number(prompt("Qual é a sua idade?"));
+if (idade >= 18) {
+  console.log("Você é maior de idade.");
+} else {
+  console.log("Você é menor de idade.");
+}
+
+let numero = Number(prompt("Digite um número:"));
+if (numero > 0) {
+  console.log("O número é positivo.");
+} else if (numero < 0) {
+  console.log("O número é negativo.");
+} else {
+  console.log("O número é zero.");
+}
+
+let contador = 1;
+while (contador <= 10) {
+  console.log(contador);
+  contador++;
+}
+
+let nota = 8;
+if (nota >= 7) {
+  console.log("Aprovado");
+} else {
+  console.log("Reprovado");
+}
+
+let numeroAleatorio = Math.random();
+console.log(numeroAleatorio);
+
+let numeroAleatorio2 = Math.floor(Math.random() * 10) + 1;
+console.log(numeroAleatorio2);
+
+let numeroAleatorio3 = Math.floor(Math.random() * 1000) + 1;
+console.log(numeroAleatorio3);
