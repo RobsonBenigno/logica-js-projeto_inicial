@@ -1,4 +1,4 @@
-// 🧩 Desafio 1
+// 🧩 Desafios 1
 alert('Bem-vindo ao nosso site!');
 
 let nome = "Lua";
@@ -23,7 +23,7 @@ if (idade >= 18) {
     alert('Pode tirar a habilitação!'); 
 }
 
-// 🧩 Desafio 2 
+// 🧩 Desafios 2 
 let diaDaSemana = prompt("Qual é o dia da semana?");
 if (diaDaSemana === "Sábado" || diaDaSemana === "Domingo") {
   alert("Bom fim de semana!");
@@ -52,3 +52,29 @@ alert(`Seu saldo atual é de R$ ${saldo}.`);
 
 let nome = prompt("Digite seu nome:");
 alert(`Olá, ${nome}! Seja bem-vindo!`);
+
+// 🧩 Desafios 3 
+let contador = 1;
+while (contador <= 10) {
+  console.log(contador);
+  contador++;
+}
+
+let contador2 = 10;
+while (contador2 >= 0) {
+  console.log(contador2);
+  contador2--;
+}
+
+let numero = Number(prompt("Digite um número para contagem regressiva:"));
+while (numero >= 0) {
+  console.log(numero);
+  numero--;
+}
+
+let limite = Number(prompt("Digite um número para contagem progressiva:"));
+let i = 0;
+while (i <= limite) {
+  console.log(i);
+  i++;
+}

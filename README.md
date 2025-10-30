@@ -53,3 +53,16 @@
    *(Exemplo: `alert("Olá, " + nome + "! Seja bem-vindo!")`)*
 
 ---
+# 🔁 Desafios 3
+
+1. **Contador de 1 até 10**  
+   Crie um contador que comece em **1** e vá até **10** usando um loop **while**.  
+   Mostre cada número no console.
+
+2. **Contador de 10 até 0**  
+   Crie um contador que começa em **10** e vá até **0** usando um loop **while**.  
+   Mostre cada número no console.
+
+3. **Contagem Regressiva**  
+   Peça ao usuário um número usando **prompt** e conte **deste número até 0**,  
+   exibindo o result
